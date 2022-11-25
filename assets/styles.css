@@ -4,6 +4,10 @@ html, body {
     font-family: "Inter", Arial, sans-serif;
 }
 
+a {
+    color: #222;
+}
+
 .page404 {
     height: 100%;
     width: 100%;
