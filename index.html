@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>REPL</title>
+    <!-- Embed -->
+    <meta content="SqdNoises' GitHub Page" property="og:title">
+    <meta content="o.o" property="og:description">
+    <meta content="https://sqdnoises.github.io/" property="og:url">
+    <meta content="https://sqdnoises.github.io/assets/sqd/normal.png" property="og:image">
+    <meta content="#43B581" data-react-helmet="true" name="theme-color">
 
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <!-- Website Customization -->
+    <title>SqdNoises</title>
+    <link rel="icon" type="image/png" href="/assets/sqd/mono.png">
+    <link rel="stylesheet" href="/assets/styles.css"> 
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> 
+
+    <!-- PyScript - Run python in HTML -->
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
   </head>
 
   <body>
     <py-config type="json" src="./config/pyconfig.json"></py-config>
-    Hello world! <br>
-    This is the current date and time, as computed by Python:
-    <py-script>
-from datetime import datetime
-now = datetime.now()
-now.strftime("%m/%d/%Y, %H:%M:%S")
-    </py-script>
+    hi
   </body>
 </html>
